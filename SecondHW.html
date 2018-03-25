@@ -1,0 +1,90 @@
+<html>
+	<head>
+	</head>
+	<body>
+		<form  novalidate>
+			<p><b>Введіть вашу контактну інформацію :</b></p>
+			<p><input required placeholder="Ім'я"></p>
+			<p><input type="email" required placeholder="Ваш email"></p>
+			<p><input type="url" required placeholder="Сайт"></p>
+			<p><input type="submit"></p>
+		</form>
+		<form autocomplete="on">
+		   <p>Ім'я користувача/Username: <input name="user"></p>
+		   <p>Пароль/Password: <input name="pass" type="password"></p>
+		   <p><input type="submit" value="Надіслати"></p>
+		</form>
+		
+		
+		
+		<form>
+		
+		  <p><b>Освіта :</b></p>
+		  <p><input type="radio" name="answer" value="a1">ЗОШ І-ІІІ \СОШ І-ІІІ <Br>
+		  <input type="radio" name="answer" value="a2">Університет<Br>
+		  <input type="radio" name="answer" value="a3" >Інакший варіант</p>
+		  <p><input type="submit"></p>
+		</form>
+		
+		
+		<form >
+		   <p><b>Напрямок ваших уподобань :</b></p>
+		   <p><input type="checkbox" id="check1"><label for="check1">Гуманіторний</label><Br>
+		   <input type="checkbox" id="check2"><label for="check2">Технічний</label><Br>
+		   <input type="checkbox" id="check3"><label for="check3">Поєднання двох попередніх</label><Br>
+		   <input type="checkbox" id="check4"><label for="check4">Інакший варіант</label></p>
+		</form> 
+		
+		<form action="button.html"> 
+		   <p><button>Надіслати</button>
+		   <button disabled>Не надсилати</button></p>
+		</form> 
+		
+		<form >
+		   <p><select size="3" name="hero">
+			<option disabled>Виберіть більш цікавий напрямок</option>
+			<option value="t1" selected>Лайихаки</option>
+			<option value="t2">Теорія</option>
+			<option value="t3">Практика</option>
+			<option value="t4">Усі</option>
+		   </select></p>
+		   <p><input type="submit" value="Надіслати"></p>
+		</form>
+		
+		<form enctype="multipart/form-data" method="post">
+		   <p>Загрузіть файл з цікавою, на вашу думкою, інформацією для сайту :</p>
+		   <p><input type="file" name="pic"></p>
+		</form>
+		 <form action="textarea1.php" method="post">
+			<p><b>Введіть ваш відгук про сайт :</b></p>
+			<p><textarea rows="5" cols="45" name="text"></textarea></p>
+			<p><input type="submit" value="Надіслати"></p>
+		</form>
+		
+		<form>
+		   <p>Хто для Вас №1?</p>
+		   <select name="question">
+			<option label="Бах" value="1">Стівен Гокінг</option>
+			<option label="Бетховен" value="2">Альберт Ейнштейн</option>
+			<option label="Шопен" value="3">Ісаак Ньютон</option>
+			<option label="Огинский" value="4">Миколай Коперник</option>
+		   </select>
+		   <p><input type="submit" value="Надіслати"></p>
+		</form>
+		<form >
+			<p>Введіть ваш вік: 
+			<input type="number" name="cm" autofocus></p>
+			<button type="reset" ><img  src="images/lamp1.png" width="10%"  alt="Idea" 
+            style="vertical-align: middle" > Кнопка очищення віку :)</button></p>
+		</form>
+		
+		  
+
+		<form>
+			<fieldset>
+			   <p>Для закінчення натисніть кнопку "Далі"</p>
+			   <p><button autofocus value="next">Далі</button></p>
+		   </fieldset>
+		</form>
+	</body>
+</html>
